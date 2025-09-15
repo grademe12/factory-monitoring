@@ -1,0 +1,40 @@
+# Security
+*.crt
+*.key
+*.pem
+pwfile
+password.txt
+certs/
+
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Data
+data/
+*.db
+influxdb-data/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+grafana_data/
+influxdb_data/
+influxdb_config/
+
+# Trash
+edge-device/benchmark.py
+edge-device/publisher.py
+edge-device/test.py
